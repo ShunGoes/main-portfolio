@@ -1,113 +1,142 @@
 export const wordpressProjects = [
   {
     id: "wp1",
-    title: "Luxury Real Estate",
-    description: "A premium WordPress site for a high-end real estate agency using Divi theme with custom property listings.",
-    fullDescription: "This custom WordPress site was built for a luxury real estate company. Using the Divi theme as a foundation, I implemented custom post types for property listings, advanced search filtering, and interactive maps. The design emphasizes beautiful imagery and elegant typography to highlight the premium properties.",
-    image: "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg",
+    title: "Top African Fashion",
+    description: "Top African Fashion is your go-to destination for bold, beautiful, and authentic African style. With us, culture never goes out of fashion.",
+    fullDescription: " We bring you a curated collection of the finest African-inspired designs that blend traditional craftsmanship with modern trends. From vibrant Ankara prints to regal kaftans, each piece tells a story, makes a statement, and connects you to a rich heritage.",
+    image: "/wordpress//top-africa.avif",
     link: "#",
-    technologies: ["WordPress", "Divi", "Custom PHP", "Advanced Custom Fields", "JavaScript"]
+    technologies: ["WordPress", "Divi", "CSS"]
   },
   {
     id: "wp2",
-    title: "Artisan Bakery",
-    description: "Responsive WordPress site for a local bakery with online ordering system and product catalog.",
-    fullDescription: "This WordPress site showcases a local artisan bakery's products and story. The design focuses on warm colors and appetizing imagery. Features include a custom product catalog, blog for recipes, and integration with a simple ordering system. The site is fully responsive and optimized for local SEO.",
-    image: "https://images.pexels.com/photos/1070946/pexels-photo-1070946.jpeg",
-    link: "#",
-    technologies: ["WordPress", "Divi", "WooCommerce", "Responsive Design", "Local SEO"]
+    title: "IAASAR",
+    description: "Success is built on dedication, and we encourage hard work, perseverance, and continuous learning to achieve greatness..",
+    fullDescription: "Success is built on dedication, and we encourage hard work, perseverance, and continuous learning to achieve greatness. Our platform is designed to empower individuals and organizations to reach their full potential through innovative solutions and expert guidance.",
+    image: "/wordpress//iaasar.avif",
+    link: "https://iaasar.org/",
+    technologies: ["WordPress", "Divi", "CSS"]
   },
   {
     id: "wp3",
-    title: "Corporate Consulting",
-    description: "Professional WordPress site for a consulting firm with custom appointment booking and resource library.",
-    fullDescription: "This corporate site represents a consulting firm specializing in business strategy. The design emphasizes professionalism and trust with a clean layout and strategic use of white space. Features include a custom appointment scheduling system, gated content for leads, and a resource library with filterable categories.",
-    image: "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg",
-    link: "#",
-    technologies: ["WordPress", "Divi", "Custom JavaScript", "Gravity Forms", "Appointment Scheduling"]
+    title: "Flourish Dentals",
+    description: "Leveraging the latest advancements in dental technology to deliver superior healthcare solutions.",
+    fullDescription: "Flourish Dental was founded with a vision to create a dental practice that prioritizes patient comfort, personalized care, and advanced dental solutions. Our passion for dentistry stems from a lifelong commitment to helping people feel confident in their smiles.",
+    image: "/wordpress/fdc.avif",
+    link: "https://flourishdental.ca/",
+    technologies: ["WordPress", "Divi", "CSS"]
   },
   {
     id: "wp4",
-    title: "Wellness Spa",
-    description: "Elegant WordPress site for a spa with booking functionality and service showcases.",
-    fullDescription: "This serene WordPress site was designed for a wellness spa. The calming color palette and smooth animations create a relaxing digital experience that reflects the spa's atmosphere. Includes features like service galleries, therapist profiles, integrated booking system, and testimonial showcases.",
-    image: "https://images.pexels.com/photos/3865676/pexels-photo-3865676.jpeg",
+    title: "Discoverers' Daycare",
+    description: "A safe and loving place where young minds grow through hands-on learning and playful discovery..",
+    fullDescription: "At Discoverers Daycare, we’ve created a vibrant, child-centered environment where learning feels like play, every child is celebrated, and each day is filled with laughter, discovery, and care. Our dedicated educators work closely with families to support every child’s growth",
+    image: "/wordpress/discoverers.avif",
     link: "#",
-    technologies: ["WordPress", "Divi", "Booking System", "Custom CSS", "Animation Effects"]
+    technologies: ["WordPress", "Divi", "Custom CSS",]
   },
   {
     id: "wp5",
-    title: "Photography Portfolio",
-    description: "Visual-focused WordPress portfolio for a professional photographer with gallery showcases.",
+    title: "Kiet's Photos",
+    description: "Exceptional quality, lasting impressions—curated for the moments that matter most.",
     fullDescription: "This photography portfolio site puts the client's work front and center with full-screen galleries and minimal UI elements. Built with WordPress and the Divi theme, it features custom gallery layouts, category filtering, image protection, and integrated contact forms for booking. The design is responsive with special attention to image loading optimization.",
-    image: "https://images.pexels.com/photos/1484589/pexels-photo-1484589.jpeg",
+    image: "/wordpress/kiet.avif",
     link: "#",
-    technologies: ["WordPress", "Divi", "Gallery Optimization", "Lazy Loading", "Custom Animations"]
+    technologies: ["WordPress", "Divi", "Gallery Optimization", "Lazy Loading", "Custom CSS"]
   },
   {
     id: "wp6",
-    title: "Educational Academy",
-    description: "Feature-rich WordPress site for an educational institution with course management and student portals.",
-    fullDescription: "This comprehensive WordPress site serves an educational academy with multiple programs and courses. Built on WordPress with the Divi theme, it includes custom post types for courses, events calendar integration, student testimonials, and a members-only area for enrolled students. The responsive design works across all devices for students on the go.",
-    image: "https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg",
+    title: "Delta Medical Center",
+    description: "we make it easy to access compassionate, expert care when and where you need it.",
+    fullDescription: "Discover complete healthcare in Edmonton—walk-in visits, virtual consultations, specialist care, and pharmacy services all in one trusted location. At Delta Medical Clinic, we make it easy to access compassionate, expert care when and where you need it.",
+    image: "/wordpress/dmc.avif",
     link: "#",
-    technologies: ["WordPress", "Divi", "LearnDash LMS", "Membership Integration", "Events Calendar"]
-  }
+    technologies: ["WordPress", "Divi", "Custom CSS"]
+  },
+  {
+    id: "wp7",
+    title: "Multi-Language Place",
+    description: "Achieve fluency through our proven methods and join a thriving community of language learners.",
+    fullDescription: "Gain the advantage of multilingualism. Our expert-led courses, engaging content, and supportive community ensure you achieve fluency and unlock your full potential.",
+    image: "/wordpress/mlp.avif",
+    link: "https://languageplace.net/",
+    technologies: ["WordPress", "Divi", "Custom CSS"]
+  },
+  {
+    id: "wp8",
+    title: "Leeds Institute",
+    description: "Connect with a Global Network of Learners, Master Advanced Skills from Industry Experts, and Engage in Live Online Classes for Real-World Success.",
+    fullDescription: "Connect with a Global Network of Learners, Master Advanced Skills from Industry Experts, and Engage in Live Online Classes for Real-World Success. Leeds Institute is your gateway to a world of knowledge and opportunity. Our platform offers a diverse range of courses designed to empower you with the skills needed for success in today’s dynamic environment.",
+    image: "/wordpress/leeds.avif",
+    link: "https://leedsist.com/",
+    technologies: ["WordPress", "Divi", "Custom CSS"]
+  },
+  {
+    id: "wp9",
+    title: "Sahaba Restaurant",
+    description: "Dive into our delicious lineup of authentic Somali dishes — cooked with care, bursting with bold flavors, and made to satisfy every appetite.",
+    fullDescription: "Dive into our delicious lineup of authentic Somali dishes — cooked with care, bursting with bold flavors, and made to satisfy every appetite.",
+    image: "/wordpress/sahaba.avif",
+    link: "#",
+    technologies: ["WordPress", "Divi", "Custom CSS", " WooCommerce"]
+  },
+  {
+    id: "wp10",
+    title: "Sarap Sarap Restaurant",
+    description: "Bringing people together with amazing food and unforgettable events!",
+    fullDescription: "Bringing people together with amazing food and unforgettable events! Our restaurant is more than just a place to eat; it’s a community hub where friends and families gather to celebrate life’s moments. From intimate dinners to large gatherings, we create memorable experiences with our delicious cuisine and warm hospitality.",
+    image: "/wordpress/sarap.avif",
+    link: "#",
+    technologies: ["WordPress", "Divi", "Custom CSS", " WooCommerce"]
+  },
+  {
+    id: "wp11",
+    title: "Gebeta Ethiopian Restaurant",
+    description: "Discover the heart of Ethiopian culture through our carefully crafted dishes and welcoming atmosphere.",
+    fullDescription: "Discover the heart of Ethiopian culture through our carefully crafted dishes and welcoming atmosphere. At Gebeta Ethiopian Restaurant, we bring you the rich flavors and traditions of Ethiopia, served with love and authenticity. Our menu features a variety of traditional dishes made from the finest ingredients, ensuring an unforgettable dining experience.",
+    image: "/wordpress/gebeta.avif",
+    link: "#",
+    technologies: ["WordPress", "Divi", "Custom CSS", " WooCommerce"]
+  },
 ];
 
 export const fullstackProjects = [
   {
     id: "fs1",
-    title: "E-commerce Platform",
-    description: "A modern e-commerce platform built with Next.js, featuring product filtering, cart functionality, and payment processing.",
-    fullDescription: "This full-stack e-commerce platform delivers a seamless shopping experience with Next.js and a headless CMS backend. Features include dynamic product filtering, real-time inventory updates, secure checkout flow, and order management dashboard for administrators. The application uses server-side rendering for improved SEO and initial load performance.",
-    image: "https://images.pexels.com/photos/6956800/pexels-photo-6956800.jpeg",
-    link: "#",
-    technologies: ["Next.js", "React", "Node.js", "Stripe", "Headless CMS", "Tailwind CSS"]
+    title: "Finexa",
+    description: "Discover a smarter way to manage, invest, and grow your wealth with Finexa.",
+    fullDescription: "Discover a smarter way to manage, invest, and grow your wealth with Finexa. Our intuitive platform offers personalized insights, actionable advice, and cutting-edge tools to help you take control of your financial journey..",
+    image: "/frontend/finexa.avif",
+    link: "https://finexa.vercel.app/",
+    technologies: [ "React",  "Tailwind CSS", "Framer Motion", "Typescript"]
   },
   {
     id: "fs2",
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, user authentication, and team features.",
-    fullDescription: "This full-featured task management application helps teams collaborate effectively with shared workspaces, task assignments, deadline tracking, and progress visualization. Built with React for the frontend and Node.js/Express for the backend, it features real-time updates using WebSockets, robust user authentication, and responsive design for desktop and mobile use.",
-    image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg",
-    link: "#",
-    technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "WebSockets"]
+    title: "Doryina Travels",
+    description: "Unlock the easiest pathways to study, work, or settle abroad. Let us guide you through every step with trusted expertise and a seamless process. Start your journey today",
+    fullDescription: "At Doryina, every successful relocation is a testament to our commitment and expertise. Hear from our clients who have turned their dreams into reality with our seamless support. These stories showcase the transformative journeys we’ve made possible.",
+    image: "/frontend/doryina.avif",
+    link: "https://doryina.vercel.app/",
+    technologies: ["React", "Node.js", "Express", "Tailwind"]
   },
   {
     id: "fs3",
-    title: "Real Estate Dashboard",
-    description: "Data visualization dashboard for real estate metrics with interactive charts and filtering capabilities.",
-    fullDescription: "This specialized dashboard helps real estate professionals visualize market trends, property metrics, and client information. Using React with advanced charting libraries, it presents complex data in intuitive formats. The backend API aggregates data from multiple sources, with authentication to protect sensitive information. Features responsive design for field use on tablets and mobile devices.",
-    image: "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg",
-    link: "#",
-    technologies: ["React", "D3.js", "Node.js", "RESTful API", "PostgreSQL", "Data Visualization"]
+    title: "Lumina",
+    description: "Discover Your Perfect Match with Lumina",
+    fullDescription: "Discover Your Perfect Match with Lumina",
+    image: "/frontend/lumina.avif",
+    link: "https://lumina-kohl.vercel.app/",
+    technologies: ["React", "Typescript", "Node.js", "RESTful API", "MongoDB", "Tailwind CSS"]
   },
   {
     id: "fs4",
-    title: "Fitness Tracking App",
-    description: "Mobile-first application for tracking workouts, nutrition, and fitness goals with progress visualization.",
-    fullDescription: "This comprehensive fitness tracking application helps users monitor workouts, nutrition, and progress toward their fitness goals. Built with React Native for cross-platform mobile support, it features custom workout creation, nutrition tracking with barcode scanning, progress charts, and social sharing capabilities. The backend uses Node.js with a MongoDB database for flexible data storage.",
-    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
-    link: "#",
-    technologies: ["React Native", "TypeScript", "Node.js", "Express", "MongoDB", "Chart.js"]
+    title: "Pharmahub",
+    description: "Quality Medication and Healthcare at your Doorstep.",
+    fullDescription: "Quality Medication and Healthcare at your Doorstep. Pharmahub is your trusted partner for all your pharmaceutical needs. We provide a wide range of medications, health supplements, and wellness products, ensuring you have access to quality healthcare solutions right at your fingertips.",
+    image: "/frontend/pharmahub.avif",
+    link: "https://pharmahub-brown.vercel.app/",
+    technologies: ["React ", "Tailwind CSS"]
   },
-  {
-    id: "fs5",
-    title: "Learning Management System",
-    description: "Educational platform with course creation, student progress tracking, and interactive learning materials.",
-    fullDescription: "This full-featured learning management system serves educational institutions and online course creators. Built with Next.js and a Node.js backend, it includes course creation tools, student enrollment management, progress tracking, quiz functionality, and discussion forums. The platform supports video content, downloadable materials, and adaptive learning paths based on student progress.",
-    image: "https://images.pexels.com/photos/5428258/pexels-photo-5428258.jpeg",
-    link: "#",
-    technologies: ["Next.js", "React", "Node.js", "PostgreSQL", "Redis", "AWS S3"]
-  },
-  {
-    id: "fs6",
-    title: "Community Forum",
-    description: "Scalable discussion platform with real-time updates, user profiles, and content moderation tools.",
-    fullDescription: "This modern community forum application facilitates discussions with threaded comments, user profiles, topic categorization, and robust moderation tools. The frontend uses React with TypeScript for type safety, while the backend leverages Node.js with Express. Real-time updates are handled through WebSockets, and the responsive design ensures a great experience across all devices.",
-    image: "https://images.pexels.com/photos/7114/laptop-mobile.jpg",
-    link: "#",
-    technologies: ["React", "TypeScript", "Node.js", "Express", "Socket.io", "PostgreSQL"]
-  }
+ 
+ 
 ];
