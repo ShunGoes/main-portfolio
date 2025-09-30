@@ -44,7 +44,7 @@ export default function About() {
                 src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" 
                 alt="Developer portrait" 
                 fill
-                className="object-cover"
+                className="object-cover hidden"
               />
             </div>
           </motion.div>
