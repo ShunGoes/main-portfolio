@@ -5,7 +5,7 @@ export const wordpressProjects = [
     description: "Top African Fashion is your go-to destination for bold, beautiful, and authentic African style. With us, culture never goes out of fashion.",
     fullDescription: " We bring you a curated collection of the finest African-inspired designs that blend traditional craftsmanship with modern trends. From vibrant Ankara prints to regal kaftans, each piece tells a story, makes a statement, and connects you to a rich heritage.",
     image: "/wordpress//top-africa.avif",
-    link: "#",
+    link: "https://taf.transitionskills.org/",
     technologies: ["WordPress", "Divi", "CSS"]
   },
   {
@@ -32,7 +32,7 @@ export const wordpressProjects = [
     description: "A safe and loving place where young minds grow through hands-on learning and playful discovery..",
     fullDescription: "At Discoverers Daycare, we’ve created a vibrant, child-centered environment where learning feels like play, every child is celebrated, and each day is filled with laughter, discovery, and care. Our dedicated educators work closely with families to support every child’s growth",
     image: "/wordpress/discoverers.avif",
-    link: "#",
+    link: "https://t9d.transitionskills.org/",
     technologies: ["WordPress", "Divi", "Custom CSS",]
   },
   {
@@ -50,7 +50,7 @@ export const wordpressProjects = [
     description: "we make it easy to access compassionate, expert care when and where you need it.",
     fullDescription: "Discover complete healthcare in Edmonton—walk-in visits, virtual consultations, specialist care, and pharmacy services all in one trusted location. At Delta Medical Clinic, we make it easy to access compassionate, expert care when and where you need it.",
     image: "/wordpress/dmc.avif",
-    link: "#",
+    link: "https://dmc.transitionskills.org/",
     technologies: ["WordPress", "Divi", "Custom CSS"]
   },
   {
@@ -77,7 +77,7 @@ export const wordpressProjects = [
     description: "Dive into our delicious lineup of authentic Somali dishes — cooked with care, bursting with bold flavors, and made to satisfy every appetite.",
     fullDescription: "Dive into our delicious lineup of authentic Somali dishes — cooked with care, bursting with bold flavors, and made to satisfy every appetite.",
     image: "/wordpress/sahaba.avif",
-    link: "#",
+    link: "https://sr.transitionskills.org/",
     technologies: ["WordPress", "Divi", "Custom CSS", " WooCommerce"]
   },
   {
@@ -86,7 +86,7 @@ export const wordpressProjects = [
     description: "Bringing people together with amazing food and unforgettable events!",
     fullDescription: "Bringing people together with amazing food and unforgettable events! Our restaurant is more than just a place to eat; it’s a community hub where friends and families gather to celebrate life’s moments. From intimate dinners to large gatherings, we create memorable experiences with our delicious cuisine and warm hospitality.",
     image: "/wordpress/sarap.avif",
-    link: "#",
+    link: "https://sscr.kafloxgroup.com/",
     technologies: ["WordPress", "Divi", "Custom CSS", " WooCommerce"]
   },
   {
@@ -95,7 +95,7 @@ export const wordpressProjects = [
     description: "Discover the heart of Ethiopian culture through our carefully crafted dishes and welcoming atmosphere.",
     fullDescription: "Discover the heart of Ethiopian culture through our carefully crafted dishes and welcoming atmosphere. At Gebeta Ethiopian Restaurant, we bring you the rich flavors and traditions of Ethiopia, served with love and authenticity. Our menu features a variety of traditional dishes made from the finest ingredients, ensuring an unforgettable dining experience.",
     image: "/wordpress/gebeta.avif",
-    link: "#",
+    link: "https://geats.transitionskills.org/",
     technologies: ["WordPress", "Divi", "Custom CSS", " WooCommerce"]
   },
 ];
