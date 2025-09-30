@@ -41,10 +41,10 @@ export default function About() {
               "before:absolute before:inset-0 before:border-8 before:border-primary/20 before:rounded-lg before:-m-3"
             )}>
               <Image 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" 
+                src="/frontend/my-dp.avif" 
                 alt="Developer portrait" 
                 fill
-                className="object-cover hidden"
+                className="object-cover "
               />
             </div>
           </motion.div>
