@@ -101,8 +101,27 @@ export const wordpressProjects = [
 ];
 
 export const fullstackProjects = [
-  {
+   {
     id: "fs1",
+    title: "Switchvest",
+    description: "Crafting tailored digital solutions designed to help your brand.",
+    fullDescription: "We craft tailored digital solutions designed to help your brand scale, thrive, and stand out in a competitive market.",
+    image: "/frontend/switchvest.avif",
+    link: "https://www.switchvested.com/",
+    technologies: ["Nextjs ","Typescript", "Tailwind CSS"]
+  },
+   {
+    id: "fs7",
+    title: "GRCC World",
+    description: "Bringing mankind into glorious liberty",
+    fullDescription: "Bringing mankind into glorious liberty through faith in the redemptive work of Christ.",
+    image: "/frontend/grcc.avif",
+    link: "https://grccworld.org/",
+    technologies: ["Nextjs ","Typescript","Framer Motion", "Tailwind CSS"]
+  },
+
+  {
+    id: "fs2",
     title: "Finexa",
     description: "Discover a smarter way to manage, invest, and grow your wealth with Finexa.",
     fullDescription: "Discover a smarter way to manage, invest, and grow your wealth with Finexa. Our intuitive platform offers personalized insights, actionable advice, and cutting-edge tools to help you take control of your financial journey..",
@@ -111,7 +130,7 @@ export const fullstackProjects = [
     technologies: [ "React",  "Tailwind CSS", "Framer Motion", "Typescript"]
   },
   {
-    id: "fs2",
+    id: "fs3",
     title: "Doryina Travels",
     description: "Unlock the easiest pathways to study, work, or settle abroad. Let us guide you through every step with trusted expertise and a seamless process. Start your journey today",
     fullDescription: "At Doryina, every successful relocation is a testament to our commitment and expertise. Hear from our clients who have turned their dreams into reality with our seamless support. These stories showcase the transformative journeys we’ve made possible.",
@@ -120,7 +139,7 @@ export const fullstackProjects = [
     technologies: ["React", "Node.js", "Express", "Tailwind"]
   },
   {
-    id: "fs3",
+    id: "fs4",
     title: "Lumina",
     description: "Discover Your Perfect Match with Lumina",
     fullDescription: "Discover Your Perfect Match with Lumina",
@@ -129,7 +148,7 @@ export const fullstackProjects = [
     technologies: ["React", "Typescript", "Node.js", "RESTful API", "MongoDB", "Tailwind CSS"]
   },
   {
-    id: "fs4",
+    id: "fs5",
     title: "Pharmahub",
     description: "Quality Medication and Healthcare at your Doorstep.",
     fullDescription: "Quality Medication and Healthcare at your Doorstep. Pharmahub is your trusted partner for all your pharmaceutical needs. We provide a wide range of medications, health supplements, and wellness products, ensuring you have access to quality healthcare solutions right at your fingertips.",

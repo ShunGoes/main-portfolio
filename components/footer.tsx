@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Portfolio</h3>
+            <h3 className="font-semibold text-lg mb-4">Favour Timothy</h3>
             <p className="text-muted-foreground">
               Creating beautiful, functional websites and applications with modern technologies.
             </p>
@@ -35,7 +35,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <address className="not-italic text-muted-foreground">
               <p>favourkcb@gmail.com</p>
-              <p className="mt-2">+234 812 6866 8237</p>
+              <p className="mt-2">+234 812 6866 823</p>
               <p className="mt-2">Lagos, Nigeria</p>
             </address>
           </div>

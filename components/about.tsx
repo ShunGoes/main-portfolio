@@ -86,12 +86,12 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="grid grid-cols-2 gap-4 mt-8"
             >
-              <div>
+              {/* <div>
                 <h3 className="font-bold text-xl mb-2">WordPress</h3>
                 <p className="text-muted-foreground">
                   Custom themes, Divi specialist.
                 </p>
-              </div>
+              </div> */}
               <div>
                 <h3 className="font-bold text-xl mb-2">Full Stack</h3>
                 <p className="text-muted-foreground">

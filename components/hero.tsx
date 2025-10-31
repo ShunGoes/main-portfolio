@@ -50,12 +50,12 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button asChild size="lg" className="group">
+            {/* <Button asChild size="lg" className="group">
               <Link href="/wordpress">
                 WordPress Projects
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
-            </Button>
+            </Button> */}
             <Button asChild size="lg" variant="outline" className="group">
               <Link href="/fullstack">
                 Full Stack Work

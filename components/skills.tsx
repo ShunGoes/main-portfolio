@@ -12,12 +12,12 @@ import {
 } from 'lucide-react';
 
 const skills = [
-  {
-    title: "WordPress Development",
-    description: "Custom themes, plugin development, Divi expertise",
-    icon: Layers,
-    delay: 0
-  },
+  // {
+  //   title: "WordPress Development",
+  //   description: "Custom themes, plugin development, Divi expertise",
+  //   icon: Layers,
+  //   delay: 0
+  // },
   {
     title: "Front-End Development",
     description: "HTML, CSS, TailwindCss, JavaScript, Typescript, React, Next.js",

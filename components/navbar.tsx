@@ -74,7 +74,7 @@ export default function Navbar() {
 
         <nav className="hidden md:flex space-x-1 relative">
           <NavItem href="/" text="Home" />
-          <NavItem href="/wordpress" text="WordPress" icon={Laptop} />
+          {/* <NavItem href="/wordpress" text="WordPress" icon={Laptop} /> */}
           <NavItem href="/fullstack" text="Full Stack" icon={Code} />
         </nav>
 
