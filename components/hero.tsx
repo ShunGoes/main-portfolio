@@ -58,7 +58,7 @@ export default function Hero() {
             </Button> */}
             <Button asChild size="lg" variant="outline" className="group">
               <Link href="/fullstack">
-                Full Stack Work
+                Showcase
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>

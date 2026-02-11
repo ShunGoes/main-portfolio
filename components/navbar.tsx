@@ -75,7 +75,7 @@ export default function Navbar() {
         <nav className="hidden md:flex space-x-1 relative">
           <NavItem href="/" text="Home" />
           {/* <NavItem href="/wordpress" text="WordPress" icon={Laptop} /> */}
-          <NavItem href="/fullstack" text="Full Stack" icon={Code} />
+          <NavItem href="/fullstack" text="Frontend" icon={Code} />
         </nav>
 
         <div className="flex items-center gap-4">
@@ -108,8 +108,8 @@ export default function Navbar() {
           >
             <div className="container mx-auto px-4 py-4 flex flex-col space-y-3">
               <NavItem href="/" text="Home" onClick={closeMobileMenu} />
-              <NavItem href="/wordpress" text="WordPress" icon={Laptop} onClick={closeMobileMenu} />
-              <NavItem href="/fullstack" text="Full Stack" icon={Code} onClick={closeMobileMenu} />
+              {/* <NavItem href="/wordpress" text="WordPress" icon={Laptop} onClick={closeMobileMenu} /> */}
+              <NavItem href="/fullstack" text="Frontend" icon={Code} onClick={closeMobileMenu} />
             </div>
           </motion.div>
         )}

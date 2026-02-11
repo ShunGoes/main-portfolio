@@ -101,51 +101,41 @@ export const wordpressProjects = [
 ];
 
 export const fullstackProjects = [
-   {
+  {
+    id: "fs101",
+    title: "Orbit",
+    description: "HR payroll management system",
+    fullDescription: "Orbit is a HR and payroll management system that streamlines employee records, salary processing and administrative workflows within a centralized platform.",
+    image: "/frontend/orbit.png",
+    link: "https://orbitpayroll.com.ng",
+    technologies: ["Nextjs ", "Typescript", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    id: "fs102",
+    title: "GRCC World (CMS)",
+    description: "Church Management System",
+    fullDescription: "Custom web-based Church Management System that centralized member data, financial record, events, testimonies, sermons and reporting workflow",
+    image: "/frontend/grcc-cms.png",
+    link: "https://grccfrontenddashboard.vercel.app",
+    technologies: ["Nextjs ", "Typescript", "Tailwind CSS", "Framer Motion"]
+  },
+  {
     id: "fs1",
     title: "Switchvest",
     description: "Crafting tailored digital solutions designed to help your brand.",
     fullDescription: "We craft tailored digital solutions designed to help your brand scale, thrive, and stand out in a competitive market.",
     image: "/frontend/switchvest.avif",
     link: "https://www.switchvested.com/",
-    technologies: ["Nextjs ","Typescript", "Tailwind CSS"]
+    technologies: ["Nextjs ", "Typescript", "Tailwind CSS"]
   },
-   {
+  {
     id: "fs7",
-    title: "GRCC World",
-    description: "Bringing mankind into glorious liberty",
-    fullDescription: "Bringing mankind into glorious liberty through faith in the redemptive work of Christ.",
+    title: "GRCC World (website)",
+    description: "Platform for church members to interact with organisations within the church.",
+    fullDescription: "Members interactions on the website are collated and sent to the CMS for furtehr processing.",
     image: "/frontend/grcc.avif",
     link: "https://grccworld.org/",
-    technologies: ["Nextjs ","Typescript","Framer Motion", "Tailwind CSS"]
-  },
-
-  {
-    id: "fs2",
-    title: "Finexa",
-    description: "Discover a smarter way to manage, invest, and grow your wealth with Finexa.",
-    fullDescription: "Discover a smarter way to manage, invest, and grow your wealth with Finexa. Our intuitive platform offers personalized insights, actionable advice, and cutting-edge tools to help you take control of your financial journey..",
-    image: "/frontend/finexa.avif",
-    link: "https://finexa.vercel.app/",
-    technologies: [ "React",  "Tailwind CSS", "Framer Motion", "Typescript"]
-  },
-  {
-    id: "fs3",
-    title: "Doryina Travels",
-    description: "Unlock the easiest pathways to study, work, or settle abroad. Let us guide you through every step with trusted expertise and a seamless process. Start your journey today",
-    fullDescription: "At Doryina, every successful relocation is a testament to our commitment and expertise. Hear from our clients who have turned their dreams into reality with our seamless support. These stories showcase the transformative journeys we’ve made possible.",
-    image: "/frontend/doryina.avif",
-    link: "https://doryina.vercel.app/",
-    technologies: ["React", "Node.js", "Express", "Tailwind"]
-  },
-  {
-    id: "fs4",
-    title: "Lumina",
-    description: "Discover Your Perfect Match with Lumina",
-    fullDescription: "Discover Your Perfect Match with Lumina",
-    image: "/frontend/lumina.avif",
-    link: "https://lumina-kohl.vercel.app/",
-    technologies: ["React", "Typescript", "Node.js", "RESTful API", "MongoDB", "Tailwind CSS"]
+    technologies: ["Nextjs ", "Typescript", "Framer Motion", "Tailwind CSS"]
   },
   {
     id: "fs5",
@@ -156,6 +146,26 @@ export const fullstackProjects = [
     link: "https://pharmahub-brown.vercel.app/",
     technologies: ["React ", "Tailwind CSS"]
   },
- 
- 
+  {
+    id: "fs3",
+    title: "Doryina Travels",
+    description: "Travel agency platform",
+    fullDescription: "At Doryina, every successful relocation is a testament to our commitment and expertise. Hear from our clients who have turned their dreams into reality with our seamless support. These stories showcase the transformative journeys we’ve made possible.",
+    image: "/frontend/doryina.avif",
+    link: "https://doryina.vercel.app/",
+    technologies: ["React", "Node.js", "Express", "Tailwind"]
+  },
+  {
+    id: "fs2",
+    title: "Finexa",
+    description: "Discover a smarter way to manage, invest, and grow your wealth with Finexa.",
+    fullDescription: "Discover a smarter way to manage, invest, and grow your wealth with Finexa. Our intuitive platform offers personalized insights, actionable advice, and cutting-edge tools to help you take control of your financial journey..",
+    image: "/frontend/finexa.avif",
+    link: "https://finexa.vercel.app/",
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Typescript"]
+  },
+
+
+
+
 ];

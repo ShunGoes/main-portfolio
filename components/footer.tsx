@@ -25,8 +25,8 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <FooterLink href="/" text="Home" />
-              <FooterLink href="/wordpress" text="WordPress Development" />
-              <FooterLink href="/fullstack" text="Full Stack Development" />
+              {/* <FooterLink href="/wordpress" text="WordPress Development" /> */}
+              <FooterLink href="/fullstack" text="Frontend Development" />
             </ul>
           </div>
           

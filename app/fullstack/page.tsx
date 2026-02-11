@@ -26,14 +26,14 @@ export default function FullStackPage() {
   return (
     <div className="container mx-auto px-4 py-12 md:py-20">
       <PageHeader 
-        title="Full Stack Development" 
-        subtitle="Building modern web applications with React, Next.js, Node.js and more"
+        title="Frontend Development" 
+        subtitle="Building modern web applications with React, Next.js, Typescript and more"
       />
       
       <div className="max-w-3xl mx-auto mb-12 text-center">
         <p className="text-lg text-muted-foreground">
-          I create scalable, performant full-stack applications using modern technologies.
-          My expertise spans from responsive front-end interfaces to robust back-end systems.
+          I create scalable, performant web applications using modern technologies.
+          
         </p>
       </div>
 
@@ -42,9 +42,9 @@ export default function FullStackPage() {
           <TabsTrigger value="all" onClick={() => setFilter("all")}>All</TabsTrigger>
           <TabsTrigger value="react" onClick={() => setFilter("react")}>React</TabsTrigger>
           <TabsTrigger value="next" onClick={() => setFilter("next")}>Next.js</TabsTrigger>
-          <TabsTrigger value="node" onClick={() => setFilter("node")}>Node.js</TabsTrigger>
+          {/* <TabsTrigger value="node" onClick={() => setFilter("node")}>Node.js</TabsTrigger> */}
           <TabsTrigger value="typescript" onClick={() => setFilter("typescript")}>TypeScript</TabsTrigger>
-          <TabsTrigger value="api" onClick={() => setFilter("api")}>APIs</TabsTrigger>
+          {/* <TabsTrigger value="api" onClick={() => setFilter("api")}>APIs</TabsTrigger> */}
         </TabsList>
         <TabsContent value="all" className="mt-8"></TabsContent>
         <TabsContent value="react" className="mt-8"></TabsContent>

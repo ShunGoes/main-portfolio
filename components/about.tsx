@@ -76,7 +76,7 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <p className="text-lg mb-6">
-               I dabble in React, WordPress, Node.js,Express, Typescript and Next.js, and always striving to stay updated with the latest trends in web development.
+               I dabble in React, Typescript and Next.js, and always striving to stay updated with the latest trends in web development.
               </p>
             </motion.div>
             
@@ -93,9 +93,9 @@ export default function About() {
                 </p>
               </div> */}
               <div>
-                <h3 className="font-bold text-xl mb-2">Full Stack</h3>
+                <h3 className="font-bold text-xl mb-2">Frontend Development Stack</h3>
                 <p className="text-muted-foreground">
-                  React, Next.js, Node.js/Express.js, Typescript
+                  HTML, CSS, TailwindCSS, Javascript, React, Nextjs, Typescript, React Query, Zustand
                 </p>
               </div>
             </motion.div>

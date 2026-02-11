@@ -20,33 +20,33 @@ const skills = [
   // },
   {
     title: "Front-End Development",
-    description: "HTML, CSS, TailwindCss, JavaScript, Typescript, React, Next.js",
+    description: "HTML, CSS, TailwindCSS, Javascript, React, Nextjs, Typescript, React Query, Zustand",
     icon: Code2,
     delay: 0.1
   },
-  {
-    title: "Back-End Development",
-    description: "Node.js, Express, RESTful APIs",
-    icon: Database,
-    delay: 0.2
-  },
+  // {
+  //   title: "Back-End Development",
+  //   description: "Node.js, Express, RESTful APIs",
+  //   icon: Database,
+  //   delay: 0.2
+  // },
   {
     title: "Dev Tools & Workflow",
     description: "Version Control, Deployment & Hosting, Performance Optimization",
     icon: Paintbrush,
-    delay: 0.3
+    delay: 0.2
   },
   {
     title: "Client Facing",
     description: "Communication, Project Management, Client Support",
     icon: Wrench,
-    delay: 0.4
+    delay: 0.3
   },
   {
     title: "Performance Optimization",
     description: "Website speed, Core Web Vitals, SEO",
     icon: LineChart,
-    delay: 0.5
+    delay: 0.4
   }
 ];
 
