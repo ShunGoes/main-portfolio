@@ -181,24 +181,8 @@ export const fullstackProjects = [
     link: "https://pharmahub-brown.vercel.app/",
     technologies: ["React ", "Tailwind CSS"]
   },
-  {
-    id: "fs3",
-    title: "Doryina Travels",
-    description: "Travel agency platform",
-    fullDescription: "At Doryina, every successful relocation is a testament to our commitment and expertise. Hear from our clients who have turned their dreams into reality with our seamless support. These stories showcase the transformative journeys we’ve made possible.",
-    image: "/frontend/doryina.avif",
-    link: "https://doryina.vercel.app/",
-    technologies: ["React", "Node.js", "Express", "Tailwind"]
-  },
-  {
-    id: "fs2",
-    title: "Finexa",
-    description: "Discover a smarter way to manage, invest, and grow your wealth with Finexa.",
-    fullDescription: "Discover a smarter way to manage, invest, and grow your wealth with Finexa. Our intuitive platform offers personalized insights, actionable advice, and cutting-edge tools to help you take control of your financial journey..",
-    image: "/frontend/finexa.avif",
-    link: "https://finexa.vercel.app/",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Typescript"]
-  },
+
+
 
 
 
