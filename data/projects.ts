@@ -100,7 +100,42 @@ export const wordpressProjects = [
   },
 ];
 
+type ProjectMedia =
+  | string
+  | { type: "youtube" | "video" | "image"; url: string };
+
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  fullDescription?: string;
+  image: string;
+  media?: ProjectMedia[];
+  link: string;
+  technologies: string[];
+}
+
 export const fullstackProjects = [
+  {
+    id: "fs99",
+    title: "Sit-With_PD",
+    description: "A platform for personal development & therapeutic camp experience",
+    fullDescription: "Gain clarity, build resilience, and live with greater purpose. Guided programmes, camps, and one-on-one consultations.",
+    image: "/frontend/sit-with-pd.png",
+    link: "https://sitwithpd.com",
+    media: ["https://youtu.be/4chQbCg-Fqs?si=Ly9Si8kQET9rVE4t"],
+    technologies: ["Nextjs ", "Typescript", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    id: "fs100",
+    title: "The Land Bank",
+    description: "Discovering your first plot to unlocking credit against your equity",
+    fullDescription: "The LandBank combines property discovery, verified due diligence, NHF/FHF/MREIF mortgage access, escrow, and asset banking — all in one seamless digital ecosystem.",
+    image: "/frontend/tlb-home.png",
+    link: "https://thelandbank.co/",
+    media: ["/frontend/tlb-home.png", "/frontend/tlb-discovery.png", "/frontend/tlb-housing.png", "/frontend/tlb-thousands.png"],
+    technologies: ["Nextjs ", "Typescript", "Tailwind CSS", "Framer Motion"]
+  },
   {
     id: "fs101",
     title: "Orbit",
@@ -116,7 +151,7 @@ export const fullstackProjects = [
     description: "Church Management System",
     fullDescription: "Custom web-based Church Management System that centralized member data, financial record, events, testimonies, sermons and reporting workflow",
     image: "/frontend/grcc-cms.png",
-    link: "https://grccfrontenddashboard.vercel.app",
+    link: "https://cms.grccworld.org/auth/sign-in",
     technologies: ["Nextjs ", "Typescript", "Tailwind CSS", "Framer Motion"]
   },
   {
